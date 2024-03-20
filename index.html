@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Over</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="display">
+        <div class="match-card">
+            <h1 class="title">Super Over Match</h1>
+            <div class="teams">
+                <img id="CSK-img" src="https://logodix.com/logo/1723734.png" alt="CSK">
+                <div id="score">
+                    <h1 id="CSK-score">0</h1>
+                    <h1>&nbsp;-&nbsp;</h1>
+                    <h1 id="RCB-score">0</h1>
+                </div>
+                <img id="RCB-img"src="https://wallpapercave.com/wp/wp7104719.png" alt="RCB">
+            </div>
+            <div class="runs">
+                <div class="CSK-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+                <div class="RCB-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="play" value="strike" onclick="playSuperOver();">Strike</button>
+                <button id="reset" onclick="window.location.reload();">Refresh</button>
+            </div>
+            <h1 id="res">Waiting for Result</h1>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
